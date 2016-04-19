@@ -10,8 +10,8 @@
 function query($q) {
 
 	$servername = "localhost";
-	$username = "cmsc433";
-	$password = "5KybKtYM";
+	$username = "root";
+	$password = "";
 	$database = "cmsc433";
 
 	$conn = new mysqli($servername, $username, $password, $database);
