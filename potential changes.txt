@@ -1,0 +1,28 @@
+Take pictures of original for comparison?
+
+----
+
+Overhead text
+-Change font or remove altogether
+-Should not hide words upon screen resize
+
+----
+
+Keep user input after invalid information entered?
+
+----
+
+Change fonts?
+
+Change text
+
+Classes in left corner
+
+Increase window size?
+
+Checkboxes should line up
+
+More padding at bottom for course list
+
+Change text at end:
+"To acquire detailed descriptions of each course..."
