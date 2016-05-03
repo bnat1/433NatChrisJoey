@@ -1,0 +1,44 @@
+CMSC 433 DOCUMENTATION REQUIREMENTS
+ (IN THE ORDER LISTED BELOW)
+README.doc
+-editable
+-Introduction of Team (names, emails, and roles)
+-location (how does Lupoli get to it and run)
+-project description
+-WHAT DID WE ADD
+ -PROVE YOU DESERVE AN "A"
+ -TEXT AND SCREEN CAPTURES
+-WHAT DID WE IMPROVE
+ -WHY?
+-DB setup
+ -labs, screen captures, and why DB is seup that way
+-DB dump
+ -text (.sql file), creation text
+ -no saved student data needed
+-Languages used and where (NO CSS)
+ -HTML, PHP, JS, Jquery, etc. and where
+-Slick Sheet
+ -general screenshots of project working and result
+
+----------------------------------------------------------------
+
+PRESENTATION: 
+ (DAYS: 5/12 1-5PM, 5/16 9-11:30AM)
+-presentations every 20 mins on the hour (BE EARLY)
+-15 mins long
+-go over THIS documentation
+-live demo of project
+-dress casual
+-meet in office ITE 209
+ -projector w/ HDMI and VGA
+-everyone has equal talk time
+-powerpoint or prezzi of documentation
+-print of documentation/ppt (optional)
+
+-----------------------------------------------------------------
+
+SUBMISSION:
+-DUE 5/11 ON 11:59 PM EST
+-only need 1 person to submit
+-all project zipped up in Project2.zip (NOT PPT)
+ -includes all code, documentation, images, and DB dump
