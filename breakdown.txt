@@ -1,0 +1,57 @@
+Here is the order of how everything works. Files that are included/used are bulleted.
+
+
+1. index.php
+
+2. login.php
+	-index.css
+	-mysqlHelper.php
+
+3. courses.php
+	-mysqlHelper.php
+	-authenticate.php
+		-index.php
+	-index_js.js
+
+4. landing.php
+	-mysqlhelper.php
+	-authenticate.php
+
+------------
+
+Here is what each file does.
+
+
+index.php:
+	-does nothing, goes straight into login.php
+
+index.css:
+	-styling
+
+login.php:
+	-gets user input, validates with regex
+	-if the information is valid, goes into courses.php
+
+mysqlHelper.php:
+	-functions to be called by other pages
+	-functions:
+		-make a query
+		-add a user
+		-get user info/classes
+		-function update each class type (ex. updateSci updates the users science courses)
+
+courses.php:
+	-checkbox page for all courses
+	-user can select courses and submit
+	-upon being checked, courses are added to an array 'taken[]'
+
+index_js.js:
+	-dealing with course pre-reqs, keeping boxes uncheckable
+	-used for the courses.php page
+
+authenticate.php:
+	-simply makes sure the user accesses login.php first
+
+landing.php:
+	-goes through array taken[] and uses regex to sort into categories (sci, cmsc200, etc)
+	-lists courses the user can take
