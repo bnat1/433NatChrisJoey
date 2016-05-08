@@ -5,7 +5,7 @@
 
 <html>
 <head>
-	<title>Potential Courses</title>
+	<title>UMBC CMSC Virtual Advisor</title>
 	<link rel='stylesheet' href='index.css' type='text/css'>
 </head>
 <body>
