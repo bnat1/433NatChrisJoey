@@ -29,7 +29,11 @@
 			<!-- navigation bar -->
 			<div id="navBar">
 			<form action="landing.php" method="post" onsubmit="return confirm('Are you sure you want to submit?')">
-				<div id="titleBar">Logged in as: <?php echo("<b>$_SESSION[id]</b>");?><hr></div>
+				<ul>
+					<li><div id="titleBar">Logged in as: <?php echo("<b>$_SESSION[id]</b>");?></div></li>
+					<li style="float:right"><a href="logout.php">Log Out</a></li>
+				</ul>
+				<div id="lineBreak"><hr></div>
 				<ul>
 					<li><a href="#top">Classes</a>
 						<ul>

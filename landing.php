@@ -15,6 +15,13 @@
 		</div> <! -- close header -->
 		
 		<div id="content">
+			<!-- navigation bar -->
+			<div id="navBar">
+				<ul>
+					<li><div id="titleBar">Logged in as: <?php echo("<b>$_SESSION[id]</b>");?></div></li>
+					<li style="float:right"><a href="logout.php">Log Out</a></li>
+				</ul>
+			</div> <!-- end navBar div -->	
 		<h2>Courses you are eligible to take:</h2>
 			<div id="scrollbar">
 			<a href="http://catalog.umbc.edu/preview_program.php?catoid=3&poid=318&returnto=104" target="_blank">

@@ -169,10 +169,19 @@ input:enabled + label {
  */
 
 #titleBar {
-	margin: 0;
-	padding-top: 5px;
+	margin: auto;
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
 	overflow: hidden;
 	color: #f5ca5c;
 	background-color: #333;
-	box-shadow: 0px 8px 10px #aaaaaa;
+	/*box-shadow: 0px 8px 10px #aaaaaa;*/
+}
+
+#lineBreak {
+	margin: auto;
+	overflow: hidden;
+	color: #f5ca5c;
+	background-color: #333;
 }
