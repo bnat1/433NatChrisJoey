@@ -18,14 +18,13 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<meta name="description" content="Advising Help for UMBC Computer Science Students">
 	<meta name="keywords" content="computer,science,433,UMBC,project,advising,help,classes">
-
 </head>
 <body>
 	<div id="container">
-		<div id="header">
-		<p class="headerText">Computer Science Virtual Advisor</p>
-		</div> <! -- close header -->
 		<div id="content">
+			<div id="titleBar">
+				<h1>UMBC CMSC Virtual Advisor</h1>
+			</div>
 			<!-- navigation bar -->
 			<div id="navBar">
 			<form action="landing.php" method="post" onsubmit="return confirm('Are you sure you want to submit?')">
@@ -36,20 +35,17 @@
 				<div id="lineBreak"><hr></div>
 				<ul>
 					<li><a href="#top">Classes</a>
-						<ul>
-							<li><a href="#200">200</a></li>
-							<li><a href="#300">300</a></li>
-							<li><a href="#400">400</a></li>
+							<li><a href="#200">CMSC-200</a></li>
+							<li><a href="#300">CMSC-300</a></li>
+							<li><a href="#400">CMSC-400</a></li>
 							<li><a href="#math">Math</a></li>
 							<li><a href="#sci">Science</a></li>
 							<li><a href="#stat">Statistics</a></li>
-						</ul>
 					</li>
 					<li style="float:right"><a href="#"><input type="submit" id="submit" value="Submit Classes"></a></li>
 				</ul>
 			</div> <!-- end navBar div -->
 
-<!-- indentation is off due to <pre> tags used for checkboxes -->
 <!-- begin vertical scrollbar section -->
 <div id="scrollbar">
 <table>
@@ -58,7 +54,6 @@
 <div id="top"></div>
 
 <!-- introduction section -->
-<h1 id="classes">Classes</h1>
 <p>
 Welcome to the <i>Computer Science Virtual Advisor</i>. The goal of this page is to help you find classes that you are eligable to take next semester. Fill out the form below by selecting the classes that you have already taken, including the ones you are taking this semester (as long as you expect to pass them). If you cannot select a class, hover over it to find out why. Once you are done, hit <b>"Submit Classes"</b> to view the list of classes you may take next semester. The classes you select will be saved for when you return to this page and you may change your selections at any time. Be sure to hit submit to save your selections.
 </p>
@@ -68,7 +63,7 @@ Welcome to the <i>Computer Science Virtual Advisor</i>. The goal of this page is
 <!-- cmsc 200 section -->
 <h2 id="200">200 Level CMSC Classes</h2>
 <div id="alignClasses">
-<pre>
+<div id="course">
 <span><input type="checkbox" id="csgw" name="taken[]" value="" onchange="gateway(this)"><label for="csgw">Passed CS Gateway</label></span>
 <span><input type="checkbox" id="cs201" name="taken[]" value="CMSC 201" onchange="rd(this)"><label for="cs201">CMSC 201	Computer Science I</label></span>
 <span title="Requires CMSC 201"><input type="checkbox" id="cs202" value="CMSC 202" onchange="rd(this)" name="taken[]"><label for="cs202">CMSC 202	Computer Science II</label></span>
@@ -76,7 +71,7 @@ Welcome to the <i>Computer Science Virtual Advisor</i>. The goal of this page is
 <span title="Requires CMSC 202"><input type="checkbox" id="cs232" name="taken[]" value="CMSC 232" onchange="rd(this)" checked><label for="cs232">CMSC 232	Advanced Java Techniques</label></span>
 <span title="Requires CMSC 203"><input type="checkbox" id="cs291" name="taken[]" value="CMSC 291" onchange="rd(this)"><label for="cs291">CMSC 291	Special Topics in Computer Science</label></span>
 <span title="Requires CMSC 203"><input type="checkbox" id="cs299" name="taken[]" value="CMSC 299" onchange="rd(this)"><label for="cs299">CMSC 299	Independent Study in Computer Science</label></span>
-</pre>
+</div>
 </div>
 </td>
 </tr>
@@ -86,7 +81,7 @@ Welcome to the <i>Computer Science Virtual Advisor</i>. The goal of this page is
 <td>
 <h2 id="300">300 Level CMSC Classes</h2>
 <div id="alignClasses">
-<pre>
+<div id="course">
 <span title="Requires CMSC 202"><input type="checkbox" id="cs304" name="taken[]" value="CMSC 304" onchange="rd(this)"><label for="cs304">CMSC 304	Social/Ethical Issues In IT</label></span>
 <span title="Requires CMSC 203"><input type="checkbox" id="cs313" name="taken[]" value="CMSC 313" onchange="rd(this)"><label for="cs313">CMSC 313	Computer Organazation & Assembly Language</label></span>
 <span title="Requires CMSC 203"><input type="checkbox" id="cs331" name="taken[]" value="CMSC 331" onchange="rd(this)"><label for="cs331">CMSC 331	Principles of Programing Languages</label></span>
@@ -94,7 +89,7 @@ Welcome to the <i>Computer Science Virtual Advisor</i>. The goal of this page is
 <span title="Requires CMSC 341"><input type="checkbox" id="cs345" name="taken[]" value="CMSC 345" onchange="rd(this)"><label for="cs345">CMSC 345	Software Design and Development</label></span>
 <span title="Requires 1 CMSC class"><input type="checkbox" id="cs352" name="taken[]" value="CMSC 352" onchange="rd(this)"><label for="cs352">CMSC 352	Women, Gender, and Information Technology</label></span>
 <span title="Requires CMSC 203"><input type="checkbox" id="cs391" name="taken[]" value="CMSC 391" onchange="rd(this)"><label for="cs391">CMSC 391	Special Topics in Computer Science</label></span>
-</pre>
+</div>
 </div>
 </td>
 </tr>
@@ -104,7 +99,7 @@ Welcome to the <i>Computer Science Virtual Advisor</i>. The goal of this page is
 <td>
 <h2 id="400">400 Level CMSC Classes</h2>
 <div id="alignClasses">
-<pre>
+<div id="course">
 <span title="Requires CMSC 313"><input type="checkbox" id="cs411" name="taken[]" value="CMSC 411" onchange="rd(this)"><label for="cs411">CMSC 411	Computer Architecture</label></span>
 <span title="Requires CMSC 313 and 341"><input type="checkbox" id="cs421" name="taken[]" value="CMSC 421" onchange="rd(this)"><label for="cs421">CMSC 421	Principles Of Operating Systems</label></span>
 <span title="Requires CMSC 421"><input type="checkbox" id="cs426" name="taken[]" value="CMSC 426" onchange="rd(this)"><label for="cs426">CMSC 426	Principles of Computer Security</label></span>
@@ -148,7 +143,7 @@ Welcome to the <i>Computer Science Virtual Advisor</i>. The goal of this page is
 <span title="Requires Department Consent"><input type="checkbox" id="cs495" name="taken[]" value="CMSC 495" onchange="rd(this)"><label for="cs495">CMSC 495	Honors Thesis</label></span>
 <span title="Requires Department Consent"><input type="checkbox" id="cs498" name="taken[]" value="CMSC 498" onchange="rd(this)"><label for="cs498">CMSC 498	Independent Study in Computer Science <br />                 CMSC Interns and Coop Students</label></span>
 <span title="Requires Department Consent"><input type="checkbox" id="cs499" name="taken[]" value="CMSC 499" onchange="rd(this)"><label for="cs499">CMSC 499	Independent Study in Computer Science</label></span>
-</pre>
+</div>
 </div>
 </td>
 </tr>
@@ -158,11 +153,11 @@ Welcome to the <i>Computer Science Virtual Advisor</i>. The goal of this page is
 <td>
 <h2 id="math">Math Classes</h2>
 <div id="alignClasses">
-<pre>
+<div id="course">
 <span title="Requires MATH 150 or a 5 on the LRC MATH placement exam"><input type="checkbox" id="math151" name="taken[]" value="MATH 151" onchange="rd(this)"><label for="math151">MATH 151	Calculus and Analytic Geometry I</label></span>
 <span title="Requires either MATH 151, 141 or 155B"><input type="checkbox" id="math152" name="taken[]" value="MATH 152" onchange="rd(this)"><label for="math152">MATH 152	Calculus and Analytic Geometry II</label></span>
 <span title="Requires either MATH 141, 151 or 380"><input type="checkbox" id="math221" name="taken[]" value="MATH 221" onchange="rd(this)"><label for="math221">MATH 221	Introduction to Linear Algebra</label></span>
-</pre>
+</div>
 </div>
 </td>
 </tr>
@@ -172,7 +167,7 @@ Welcome to the <i>Computer Science Virtual Advisor</i>. The goal of this page is
 <td>
 <h2 id="sci">Science Classes</h2>
 <div id="alignClasses">
-<pre>
+<div id="course">
 <span><input type="checkbox" id="chem101" name="taken[]" value="CHEM 101" onchange="rd(this)"><label for="chem101">CHEM 101	Principles of Chemistry I</label></span>
 <span title="Requires CHEM 101"><input type="checkbox" id="chem102" name="taken[]" value="CHEM 102" onchange="rd(this)"><label for="chem102">CHEM 102	Principles of Chemistry II</label></span>
 <span title="Requires CHEM 101"><input type="checkbox" id="chem102l" name="taken[]" value="CHEM 102L" onchange="rd(this)"><label for="chem102l">CHEM 102L	Introductory Chemistry Lab I</label></span>
@@ -185,7 +180,7 @@ Welcome to the <i>Computer Science Virtual Advisor</i>. The goal of this page is
 <span><input type="checkbox" id="ges110" name="taken[]" value="GES 110" onchange="rd(this)"><label for="ges110">GES 110	Physical Geography</label></span>
 <span><input type="checkbox" id="ges286" name="taken[]" value="GES 286" onchange="rd(this)"><label for="ges286">GES 286	Introduction to the Environment: <br />                A Geo-Spatial Perspective</label></span>
 <span><input type="checkbox" id="sci100" name="taken[]" value="SCI 100" onchange="rd(this)"><label for="sci100">SCI 100	Water; An Interdisciplinary Study </label></span>
-</pre>
+</div>
 </div>
 </td>
 </tr>
@@ -195,9 +190,9 @@ Welcome to the <i>Computer Science Virtual Advisor</i>. The goal of this page is
 <td>
 <h2 id="stat">Statistics Classes</h1>
 <div id="alignClasses">
-<pre>
+<div id="course">
 <span title=" Requires one of MATH 142, 152, 225 or 251"><input type="checkbox" id="stat355" name="taken[]" value="STAT 355" onchange="rd(this)"><label for="stat355">STAT 355	Introduction to Probability and Statistics<br/>                 for Scientists and Engineers</label></span>
-</pre>
+</div>
 </div>
 </td>
 </tr>
