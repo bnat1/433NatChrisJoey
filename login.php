@@ -6,16 +6,11 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<meta name="description" content="Advising Help for UMBC Computer Science Students">
 	<meta name="keywords" content="computer,science,433,UMBC,project,advising,help,classes">
-
 </head>
 <body>
 	<div id="container">
-		<div id="header">
-		<p class="headerText">Computer Science Virtual Advisor</p>
-		</div> <! -- close header -->
 		<div id="content">
-			<div id="titleBar"><h1 id="classes">LOGIN</h1></div><br><br>
-			
+			<div id="titleBar"><h1>UMBC CMSC Virtual Advisor</h1></div><br><br>
 			
 <?php
         session_start();
@@ -45,11 +40,7 @@
 			echo("Error logging in");
 		}
 	}
-
-
-
 ?>
-
 
 			<form action="" method="POST">
 				<b>Full Name</b><br>
@@ -61,8 +52,8 @@
 				<input class="login" type="submit" value="Login"/>
 			</form>
 			</div>
-		</div> <! -- close content -->
-	</div>  <! -- closer container -->
+		</div> <!-- close content -->
+	</div>  <!-- closer container -->
 	
 </body>
 </html>

@@ -10,11 +10,10 @@
 </head>
 <body>
 	<div id="container">
-		<div id="header">
-			<p class="headerText">Computer Science Virtual Advisor</p>
-		</div> <! -- close header -->
-		
 		<div id="content">
+			<div id="titleBar">
+				<h1>UMBC CMSC Virtual Advisor</h1>
+			</div>
 			<!-- navigation bar -->
 			<div id="navBar">
 				<ul>
