@@ -94,7 +94,7 @@ function rd1(id, checked){
 			// 421 also needs 341
 			multiDependency(checked, "cs421", ["cs341"]);
 			
-			//435 needs 341 and math 221
+			//435 needs 341 and math221
 			multiDependency(checked, "cs435", ["cs341", "math221"]);
 			
 			//431 needs 313, 341, 331
@@ -123,8 +123,8 @@ function rd1(id, checked){
 			//443 requires 341, stat355, and math221
 			multiDependency(checked, "cs443", ["stat355", "math221"])
 			
-			//441 requires 341, stat 355, and math 221
-			multiDependency(checked, "cs441", ["stat355", "math152"]);
+			//441 requires 341, stat355, and math152
+			multiDependency(checked, "cs441", ["stat355"]);
 			
 			//436 also needs 331
 			multiDependency(checked, "cs436", ["cs331"]);
@@ -165,7 +165,7 @@ function rd1(id, checked){
 			resolve(checked, ["stat355", "cs486"]);
 			break;
 		case "math221":
-			// Requires either MATH 141, 151 or 380
+			// Requires either math141, 151 or 380
 			// 442 also needs cs203
 			multiDependency(checked, "cs442", ["cs203"]);
 			multiDependency(checked, "cs435", ["cs341", "cs313"]);
@@ -178,6 +178,9 @@ function rd1(id, checked){
 			break;
 		case "phys121":
 			resolve(checked, ["phys122", "phys122l"]);
+			break;
+		case "stat355":
+			multiDependency(checked, "cs441", ["cs341"]);
 			break;
 		default:
 			break;
