@@ -57,7 +57,7 @@
 <p>
 Welcome to the <i>Computer Science Virtual Advisor</i>. The goal of this page is to help you find courses that you are eligible to take next semester. Fill out the form below by selecting all courses that you have already taken, including the ones you expect to pass this semester. If you cannot select a class, hover over it to find out why. Once you are done, hit <b>"Submit Classes"</b> to view the list of classes you may take next semester. The classes you select will be saved for when you return to this page and you may change your selections at any time. Be sure to hit submit to save your selections.
 </p>
-<a href="../cmsc433/cmsc_major_worksheet.pdf" target="_blank">Click here to view UMBC's major requirements for CMSC students.</a><br/>
+<a href="../project2/cmsc_major_worksheet.pdf" target="_blank">Click here to view UMBC's major requirements for CMSC students.</a><br/>
 
 <!-- begin class listings -->
 <!-- cmsc 200 section -->
