@@ -1,0 +1,9 @@
+﻿Courses.php
+//generate all the courses, put in array
+[{
+	“name”: “<courseName>”,
+	“id”:	“<id>”,
+	“enabled”: “<enabled>”
+}]
+
+//

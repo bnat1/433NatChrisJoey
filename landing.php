@@ -21,7 +21,7 @@
 					<li style="float:right"><a href="logout.php">Log Out</a></li>
 				</ul>
 			</div> <!-- end navBar div -->	
-		<h2>Courses you are eligible to take:</h2>
+		<h1>Courses you are eligible to take:</h1>
 			<div id="scrollbar">
 			<a href="http://catalog.umbc.edu/preview_program.php?catoid=3&poid=318&returnto=104" target="_blank">
 			To acquire detailed descriptions of each course, click here.
