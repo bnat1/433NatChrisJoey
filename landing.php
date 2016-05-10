@@ -250,7 +250,7 @@
 						echo "<td>";
 						echo "<h2 id='200'>200 Level CMSC Classes</h2>\n
 							<div id='alignClasses'>
-							<div id='course'>";
+							<div id='courseCenter'>";
 						foreach ($rec200 as $class1) {
 							echo $class1;
 							echo ("<br />");
@@ -265,7 +265,7 @@
 						echo "<td>";
 						echo "<h2 id='300'>300 Level CMSC Classes</h2>\n
 							<div id='alignClasses'>
-							<div id='course'>";
+							<div id='courseCenter'>";
 						foreach ($rec300 as $class1) {
 							echo $class1;
 							echo ("<br />");
@@ -280,7 +280,7 @@
 						echo "<td>";
 						echo "<h2 id='400'>400 Level CMSC Classes</h2>\n
 							<div id='alignClasses'>
-							<div id='course'>";
+							<div id='courseCenter'>";
 						foreach ($rec400 as $class1) {
 							echo $class1;
 							echo ("<br />");
@@ -295,7 +295,7 @@
 						echo "<td>";
 						echo "<h2 id='math'>Math Classes</h2>\n
 							<div id='alignClasses'>
-							<div id='course'>";
+							<div id='courseCenter'>";
 						foreach ($recMath as $class1) {
 							echo $class1;
 							echo ("<br />");
@@ -310,7 +310,7 @@
 						echo "<td>";
 						echo "<h2 id='sci'>Science Classes</h2>\n
 							<div id='alignClasses'>
-							<div id='course'>";
+							<div id='courseCenter'>";
 						foreach ($recSci as $class1) {
 							echo $class1;
 							echo ("<br />");
@@ -325,7 +325,7 @@
 						echo "<td>";
 						echo "<h2 id='stat'>Statistics Classes</h2>\n
 							<div id='alignClasses'>
-							<div id='course'>";
+							<div id='courseCenter'>";
 						foreach ($recStat as $class1) {
 							echo $class1;
 							echo ("<br />");
