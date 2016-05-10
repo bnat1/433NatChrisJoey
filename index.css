@@ -125,13 +125,17 @@ h2, h3 {
 	background-color:#ffcc00;
 }
 
+h2:hover {
+	background-color: #B4A91D;
+}
+
 table, tr, td{
 	width:100%;
 	text-align:center;
 }
 
 #alignClasses{
-	display:block;
+	display:none;
 	text-align:left;
 }
 
