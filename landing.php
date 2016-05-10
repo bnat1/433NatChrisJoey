@@ -246,7 +246,10 @@
 					sort($recStat);
 					
 					/*display list of classes*/
+					echo "<table>";
 					if(!empty($rec200)){
+						echo "<tr>";
+						echo "<td>";
 						echo "<h2 id='200'>200 Level CMSC Classes</h2>\n
 							<div id='alignClasses'>
 							<div id='course'>";
@@ -254,10 +257,14 @@
 							echo $class1;
 							echo ("<br />");
 						}
-						echo "</div>
-							</div>";
+						echo "</div>";
+						echo "</div>";
+						echo "</td>";
+						echo "</tr>";
 					}
 					if(!empty($rec300)){
+						echo "<tr>";
+						echo "<td>";
 						echo "<h2 id='300'>300 Level CMSC Classes</h2>\n
 							<div id='alignClasses'>
 							<div id='course'>";
@@ -265,10 +272,14 @@
 							echo $class1;
 							echo ("<br />");
 						}
-						echo "</div>
-							</div>";
+						echo "</div>";
+						echo "</div>";
+						echo "</td>";
+						echo "</tr>";
 					}
 					if(!empty($rec400)){
+						echo "<tr>";
+						echo "<td>";
 						echo "<h2 id='400'>400 Level CMSC Classes</h2>\n
 							<div id='alignClasses'>
 							<div id='course'>";
@@ -276,10 +287,14 @@
 							echo $class1;
 							echo ("<br />");
 						}
-						echo "</div>
-							</div>";
+						echo "</div>";
+						echo "</div>";
+						echo "</td>";
+						echo "</tr>";
 					}
 					if(!empty($recMath)){
+						echo "<tr>";
+						echo "<td>";
 						echo "<h2 id='math'>Math Classes</h2>\n
 							<div id='alignClasses'>
 							<div id='course'>";
@@ -287,10 +302,14 @@
 							echo $class1;
 							echo ("<br />");
 						}
-						echo "</div>
-							</div>";
+						echo "</div>";
+						echo "</div>";
+						echo "</td>";
+						echo "</tr>";
 					}
 					if(!empty($recSci)){
+						echo "<tr>";
+						echo "<td>";
 						echo "<h2 id='sci'>Science Classes</h2>\n
 							<div id='alignClasses'>
 							<div id='course'>";
@@ -298,10 +317,14 @@
 							echo $class1;
 							echo ("<br />");
 						}
-						echo "</div>
-							</div>";
+						echo "</div>";
+						echo "</div>";
+						echo "</td>";
+						echo "</tr>";
 					}
 					if(!empty($recStat)){
+						echo "<tr>";
+						echo "<td>";
 						echo "<h2 id='stat'>Statistics Classes</h2>\n
 							<div id='alignClasses'>
 							<div id='course'>";
@@ -309,8 +332,10 @@
 							echo $class1;
 							echo ("<br />");
 						}
-						echo "</div>
-							</div>";
+						echo "</div>";
+						echo "</div>";
+						echo "</td>";
+						echo "</tr>";
 					}
 
 
