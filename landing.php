@@ -132,13 +132,11 @@
 					}
 					
 					/* STATISTICS */
-					
 					if (in_array("MATH 151", $takenMath)){
 						array_push ($recStat, "STAT 355");
 					}
 					
 					/* MATH */
-					
 					if (!in_array("MATH 151", $takenMath)) {
 						array_push ($recMath, "MATH 151");
 					}
@@ -340,9 +338,9 @@
 
 
 				?>
-			<div> <! -- end scrollbar div -->
-		</div> <! -- end content div -->
-	</div> <! -- end container div -->
+			<div> <!-- end scrollbar div -->
+		</div> <!-- end content div -->
+	</div> <!-- end container div -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script>
 $(document).ready(function(){

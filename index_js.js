@@ -103,7 +103,6 @@ function rd1(id, checked){
 			break;
 		case "cs331":
 			resolve(checked, ["cs433", "cs473"]);
-			
 			// 431, 432, 446 also need 341
 			multiDependency(checked, "cs431", ["cs341", "cs313"]);
 			multiDependency(checked, "cs446", ["cs341"]);
