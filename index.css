@@ -133,7 +133,10 @@ table, tr, td{
 	width:100%;
 	text-align:center;
 }
-
+#centerClasses{
+	display:none;
+	text-align:center;
+}
 #alignClasses{
 	display:none;
 	text-align:left;

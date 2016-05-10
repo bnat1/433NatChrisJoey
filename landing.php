@@ -212,10 +212,10 @@
 					}
 					
 					/*Geography and Environmental Science */
-					if (!in_array("GES 110", $classChoices)){
+					if (!in_array("GES 110", $recSci)){
 						array_push($recSci, "GES 110");
 					}
-					if (!in_array("GES 286", $classChoices)){
+					if (!in_array("GES 286", $recSci)){
 						array_push($recSci, "GES 286");
 					}
 					
